@@ -298,7 +298,7 @@ init();
   <NSpace vertical :size="16">
     <NCard :bordered="false" size="small" class="card-wrapper">
       <SearchFormWrap @search="handleSearch" @reset="handleReset">
-        <NFormItem label="用户名" path="username">
+        <NFormItem label="用户名" path="username" label-placement="left" feedback=" ">
           <NInput
             v-model:value="searchForm.username"
             placeholder="请输入用户名"
@@ -306,7 +306,7 @@ init();
             @keydown.enter="handleSearch"
           />
         </NFormItem>
-        <NFormItem label="昵称" path="nickname">
+        <NFormItem label="昵称" path="nickname" label-placement="left" feedback=" ">
           <NInput
             v-model:value="searchForm.nickname"
             placeholder="请输入昵称"
@@ -314,10 +314,10 @@ init();
             @keydown.enter="handleSearch"
           />
         </NFormItem>
-        <NFormItem label="状态" path="status">
+        <NFormItem label="状态" path="status" label-placement="left" feedback=" ">
           <NSelect v-model:value="searchForm.status" :options="statusOptions" placeholder="请选择状态" clearable />
         </NFormItem>
-        <NFormItem label="邮箱" path="email">
+        <NFormItem label="邮箱" path="email" label-placement="left" feedback=" ">
           <NInput v-model:value="searchForm.email" placeholder="请输入邮箱" clearable @keydown.enter="handleSearch" />
         </NFormItem>
       </SearchFormWrap>
