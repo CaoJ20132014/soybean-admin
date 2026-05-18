@@ -1,0 +1,49 @@
+{
+  "name": "convert-gitmoji",
+  "version": "0.1.5",
+  "requiresBuild": false,
+  "files": {
+    "CHANGELOG.md": {
+      "checkedAt": 1779084886632,
+      "integrity": "sha512-KdPP89ZG1mNgatzdkah8zJWkAKGjBXgS7XquXvTs4R0+KXlt8Fw2vR1QsEL4xM/ulvhp1iuszZnG1Fa910lf6Q==",
+      "mode": 420,
+      "size": 4592
+    },
+    "LICENSE.md": {
+      "checkedAt": 1779084886632,
+      "integrity": "sha512-Rm6mUl71PUwKNtZTyX2jVhf4miLQSqSYsrVBKDmg+nOsFT1DXxi0K5DGpCy84Zc9peYMsFKlZPSkL7eeDRPoMA==",
+      "mode": 420,
+      "size": 1077
+    },
+    "README.md": {
+      "checkedAt": 1779084886632,
+      "integrity": "sha512-U3pnvVLyj9LA5VQf7iBRj94NWxJU7NDaWHHlNbR6feyDrHtc+fyQh0PE84jNdV5s3c7VTmaxITa7E2VeirDP5Q==",
+      "mode": 420,
+      "size": 2023
+    },
+    "package.json": {
+      "checkedAt": 1779084886633,
+      "integrity": "sha512-iWHjDF8ZVViyoigpm9fmnWvwgO7PSeT5GK39/3+K+b/ZU8mQlVJ513D+OXp1dpP6gg+bD3hgKODRPF+9pLnZmA==",
+      "mode": 420,
+      "size": 1059
+    },
+    "dist/index.cjs": {
+      "checkedAt": 1779084886633,
+      "integrity": "sha512-lwhtAM99wI468WxwpJfOvxRvrtPWsQxZDc9ORO5tGNOADGQHohSE6l6PICBCLWlV7nr8DwxMSbTxm53X0G/Nsw==",
+      "mode": 420,
+      "size": 3016
+    },
+    "dist/index.d.ts": {
+      "checkedAt": 1779084886633,
+      "integrity": "sha512-utVCngb6RgQmM/MVOLXZAJesh/0nj+1Ht0/rZwjrqtW4u5pfkSfU5i5d2jH4VjepU7Y8VtLR94wjlHCG+/HKeA==",
+      "mode": 420,
+      "size": 185
+    },
+    "dist/index.mjs": {
+      "checkedAt": 1779084886633,
+      "integrity": "sha512-B0mnJ6kDVKx1qn5+26OBOD1O6UWOvJbdbpukzx+1fwCZ1WPEYT2obD8LlB3BPsZWs/RwF7a4MxQm+haMASrOkw==",
+      "mode": 420,
+      "size": 2911
+    }
+  }
+}

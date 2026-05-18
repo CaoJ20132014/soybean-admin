@@ -1,0 +1,6 @@
+import { Config } from "eslint/config";
+
+//#region src/index.d.ts
+declare function defineConfig(overrides?: Record<string, string>): Promise<Config[]>;
+//#endregion
+export { defineConfig };

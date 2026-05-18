@@ -1,0 +1,31 @@
+{
+  "name": "@soybeanjs/changelog",
+  "version": "0.4.5",
+  "requiresBuild": false,
+  "files": {
+    "dist/index.js": {
+      "checkedAt": 1779084886748,
+      "integrity": "sha512-5A40eQeMt7orLBQs/E4P6QwP9EWCEZrQIJ6AhPVFm3PhecX0X33u5aP8ARQMC3Iy/KAAh3hsTE9dyNTT99kLCA==",
+      "mode": 420,
+      "size": 18144
+    },
+    "package.json": {
+      "checkedAt": 1779084886748,
+      "integrity": "sha512-WbGoeMMZtyEGt8p/q3OjPRXFVTqmK9PNqWmMKhGT+B9c5wyObfVwErYFCZjkogVZodpuI0RG7++O1HNgkNNZ2w==",
+      "mode": 420,
+      "size": 2017
+    },
+    "README.md": {
+      "checkedAt": 1779084886748,
+      "integrity": "sha512-xs5m2GKa+LRFbfPMjRhh05jYMf9ODX0ywJE0FY+4j8qmiZl+83w/K4rK6vpvc1UptcZ3KLFBtsw7KqXO1zmRLQ==",
+      "mode": 420,
+      "size": 593
+    },
+    "dist/index.d.ts": {
+      "checkedAt": 1779084886748,
+      "integrity": "sha512-w+LKqrmDRI+RAOYR/tKuokEY/hbQRTF/wI1dhjyHSAcRuOYJPLcZDFBV2ToFjkt6mEUZr6xydZf5rOneOG793w==",
+      "mode": 420,
+      "size": 3773
+    }
+  }
+}

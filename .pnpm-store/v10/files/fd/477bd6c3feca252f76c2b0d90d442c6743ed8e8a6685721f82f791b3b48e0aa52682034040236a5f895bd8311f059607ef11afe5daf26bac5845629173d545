@@ -1,0 +1,109 @@
+import { createRequire as N } from "node:module";
+var T = Object.create, v = Object.defineProperty, R = Object.getOwnPropertyDescriptor, q = Object.getOwnPropertyNames, A = Object.getPrototypeOf, h = Object.prototype.hasOwnProperty, D = (e, t) => () => (e && (t = e(e = 0)), t), F = (e, t) => () => (t || e((t = { exports: {} }).exports, t), t.exports), L = (e, t) => {
+  let r = {};
+  for (var s in e)
+    v(r, s, {
+      get: e[s],
+      enumerable: !0
+    });
+  return t || v(r, Symbol.toStringTag, { value: "Module" }), r;
+}, M = (e, t, r, s) => {
+  if (t && typeof t == "object" || typeof t == "function")
+    for (var a = q(t), l = 0, w = a.length, o; l < w; l++)
+      o = a[l], !h.call(e, o) && o !== r && v(e, o, {
+        get: ((c) => t[c]).bind(null, o),
+        enumerable: !(s = R(t, o)) || s.enumerable
+      });
+  return e;
+}, J = (e, t, r) => (r = e != null ? T(A(e)) : {}, M(t || !e || !e.__esModule ? v(r, "default", {
+  value: e,
+  enumerable: !0
+}) : r, e)), V = (e) => h.call(e, "module.exports") ? e["module.exports"] : M(v({}, "__esModule", { value: !0 }), e), Y = /* @__PURE__ */ N(import.meta.url), z = /* @__PURE__ */ L({
+  default: () => $,
+  pMapSkip: () => y
+});
+async function $(e, t, { concurrency: r = Number.POSITIVE_INFINITY, stopOnError: s = !0, signal: a } = {}) {
+  return new Promise((l, w) => {
+    if (e[Symbol.iterator] === void 0 && e[Symbol.asyncIterator] === void 0) throw new TypeError(`Expected \`input\` to be either an \`Iterable\` or \`AsyncIterable\`, got (${typeof e})`);
+    if (typeof t != "function") throw new TypeError("Mapper function is required");
+    if (!(Number.isSafeInteger(r) && r >= 1 || r === Number.POSITIVE_INFINITY)) throw new TypeError(`Expected \`concurrency\` to be an integer from 1 and up or \`Infinity\`, got \`${r}\` (${typeof r})`);
+    const o = [], c = [], I = /* @__PURE__ */ new Map();
+    let x = !1, f = !1, m = !1, b = 0, g = 0;
+    const E = e[Symbol.iterator] === void 0 ? e[Symbol.asyncIterator]() : e[Symbol.iterator](), S = () => {
+      u(a.reason);
+    }, O = () => {
+      a?.removeEventListener("abort", S);
+    }, P = (n) => {
+      l(n), O();
+    }, u = (n) => {
+      x = !0, f = !0, w(n), O();
+    };
+    a && (a.aborted && u(a.reason), a.addEventListener("abort", S, { once: !0 }));
+    const d = async () => {
+      if (f) return;
+      const n = await E.next(), _ = g;
+      if (g++, n.done) {
+        if (m = !0, b === 0 && !f) {
+          if (!s && c.length > 0) {
+            u(new AggregateError(c));
+            return;
+          }
+          if (f = !0, I.size === 0) {
+            P(o);
+            return;
+          }
+          const i = [];
+          for (const [p, j] of o.entries())
+            I.get(p) !== y && i.push(j);
+          P(i);
+        }
+        return;
+      }
+      b++, (async () => {
+        try {
+          const i = await n.value;
+          if (f) return;
+          const p = await t(i, _);
+          p === y && I.set(_, p), o[_] = p, b--, await d();
+        } catch (i) {
+          if (s) u(i);
+          else {
+            c.push(i), b--;
+            try {
+              await d();
+            } catch (p) {
+              u(p);
+            }
+          }
+        }
+      })();
+    };
+    (async () => {
+      for (let n = 0; n < r; n++) {
+        try {
+          await d();
+        } catch (_) {
+          u(_);
+          break;
+        }
+        if (m || x) break;
+      }
+    })();
+  });
+}
+var y, k = D((() => {
+  y = /* @__PURE__ */ Symbol("skip");
+}));
+export {
+  D as a,
+  V as c,
+  F as i,
+  J as l,
+  $ as n,
+  L as o,
+  z as r,
+  Y as s,
+  k as t
+};
+
+//# sourceMappingURL=p-map-DaKUJ_MH.js.map

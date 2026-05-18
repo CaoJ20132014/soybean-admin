@@ -1,0 +1,31 @@
+{
+  "name": "is-there",
+  "version": "4.5.2",
+  "requiresBuild": false,
+  "files": {
+    "LICENSE": {
+      "checkedAt": 1779084886482,
+      "integrity": "sha512-u+wmN60pRabkX1qolxkEUWAxnFkX4uLCmgK4lvYfI2IGslA96+HPHfTquJioojDvcG+dvwSh3mmiioJ4+g13Kw==",
+      "mode": 420,
+      "size": 1134
+    },
+    "lib/index.js": {
+      "checkedAt": 1779084886482,
+      "integrity": "sha512-3JVrzjpB+9qITKFMT7m9/V5bxJ1lJ+f2ltLPWTNirPvnDUiCBw0SKyOTBny/d31eS+pisMHkajIaDHOtvtTi5w==",
+      "mode": 420,
+      "size": 3496
+    },
+    "package.json": {
+      "checkedAt": 1779084886482,
+      "integrity": "sha512-Gp3nQBENmXsZpLMeJgqj6mZIF5nAhOecuSIUT/suYo7wmbHGqacghph2b80YBxeGAOnPqyUqjLbA+iX37mj++w==",
+      "mode": 420,
+      "size": 2018
+    },
+    "README.md": {
+      "checkedAt": 1779084886483,
+      "integrity": "sha512-tXu74w+VdkJNc+fMtpAcupAo1VuKPjKyIViLmBnG9PCZasNFgTTB4l3PWiUqeRKvxFqxI2IaZnWYL1e/IHyl/w==",
+      "mode": 420,
+      "size": 9724
+    }
+  }
+}

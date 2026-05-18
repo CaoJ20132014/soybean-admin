@@ -1,0 +1,43 @@
+{
+  "name": "@elegant-router/core",
+  "version": "0.3.8",
+  "requiresBuild": false,
+  "files": {
+    "dist/index.cjs": {
+      "checkedAt": 1779084889652,
+      "integrity": "sha512-KxBiX/Evgg05XmS0NYTXYVVJA//W4SuyYjpv53cWo0vwi/5zYxja/oAujr0UDikp2XQyZ6uWAQf7xS7dWfB7uw==",
+      "mode": 420,
+      "size": 6145
+    },
+    "dist/index.d.cts": {
+      "checkedAt": 1779084889653,
+      "integrity": "sha512-8PR8V9hITNx1wA+JJJxnpW8dMKJH5UwpqBndtplg6Pgr3QrcTdzYQkIsASrM/LHSPTW6oK7jbsXd7IP0zgom0g==",
+      "mode": 420,
+      "size": 5952
+    },
+    "package.json": {
+      "checkedAt": 1779084889653,
+      "integrity": "sha512-Hi/DrEtBDLeoND+LPHSXrOvxE7rvEf85cIgLGk7tyy2BRyMKGrHiivdw7IQIH2WXLm54KIMq0Lapgzukr9zAQQ==",
+      "mode": 420,
+      "size": 1253
+    },
+    "dist/index.mjs": {
+      "checkedAt": 1779084889653,
+      "integrity": "sha512-kdVwTKrHpjtKCd9d6wzSumKhFBj48mP8uK8oRyceNrM0GfdSuzmvBnedslZJ3G9uDAO61wQWwizwOKh/VHzjyg==",
+      "mode": 420,
+      "size": 4560
+    },
+    "dist/index.d.mts": {
+      "checkedAt": 1779084889653,
+      "integrity": "sha512-8PR8V9hITNx1wA+JJJxnpW8dMKJH5UwpqBndtplg6Pgr3QrcTdzYQkIsASrM/LHSPTW6oK7jbsXd7IP0zgom0g==",
+      "mode": 420,
+      "size": 5952
+    },
+    "dist/index.d.ts": {
+      "checkedAt": 1779084889653,
+      "integrity": "sha512-8PR8V9hITNx1wA+JJJxnpW8dMKJH5UwpqBndtplg6Pgr3QrcTdzYQkIsASrM/LHSPTW6oK7jbsXd7IP0zgom0g==",
+      "mode": 420,
+      "size": 5952
+    }
+  }
+}

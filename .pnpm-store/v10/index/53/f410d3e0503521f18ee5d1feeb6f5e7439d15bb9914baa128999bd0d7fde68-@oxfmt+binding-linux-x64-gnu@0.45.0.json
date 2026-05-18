@@ -1,0 +1,25 @@
+{
+  "name": "@oxfmt/binding-linux-x64-gnu",
+  "version": "0.45.0",
+  "requiresBuild": false,
+  "files": {
+    "package.json": {
+      "checkedAt": 1779084892955,
+      "integrity": "sha512-xdf5pyIv4BsgQtpzmdl5z2BUzDbRx3DI+qwPac8hV4RF92T5bKUjZUaVUo/IV0Iuk4u0aszFdsBVhPy/mSMzmA==",
+      "mode": 420,
+      "size": 774
+    },
+    "README.md": {
+      "checkedAt": 1779084892956,
+      "integrity": "sha512-ln9QyI4J9eOD4hKlUVO9yo0oBEcETTtn4SRnla9hhtnU7jHVfg3mKcsXzVn1Edxi689nQSek3oZoQkaqLdj1hw==",
+      "mode": 420,
+      "size": 103
+    },
+    "oxfmt.linux-x64-gnu.node": {
+      "checkedAt": 1779084893001,
+      "integrity": "sha512-lFm9iijGceV0i3acw2vOBFEj7S7oehE9LhYtifzs85klRBf7ZpGDwYwRyBo85UbtwPPx048No1G81ux3xysikQ==",
+      "mode": 420,
+      "size": 8225256
+    }
+  }
+}

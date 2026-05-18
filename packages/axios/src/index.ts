@@ -1,4 +1,4 @@
-import { create, AxiosError } from 'axios';
+import axios, { AxiosError } from 'axios';
 import type { AxiosResponse, CreateAxiosDefaults, InternalAxiosRequestConfig } from 'axios';
 import axiosRetry from 'axios-retry';
 import { nanoid } from '@sa/utils';
@@ -22,7 +22,7 @@ function createCommonRequest<
   const opts = createDefaultOptions<ResponseData, ApiData, State>(options);
 
   const axiosConf = createAxiosConfig(axiosConfig);
-  const instance = create(axiosConf);
+  const instance = axios.create(axiosConf);
 
   const abortControllerMap = new Map<string, AbortController>();
 
@@ -30,7 +30,7 @@ function createCommonRequest<
   const retryOptions = createRetryOptions(axiosConf);
   axiosRetry(instance, retryOptions);
 
-  instance.interceptors.request.use(conf => {
+  instance.interceptors.request.use((conf: InternalAxiosRequestConfig) => {
     const config: InternalAxiosRequestConfig = { ...conf };
 
     // set request id
@@ -51,7 +51,7 @@ function createCommonRequest<
   });
 
   instance.interceptors.response.use(
-    async response => {
+    async (response: AxiosResponse) => {
       const responseType: ResponseType = (response.config?.responseType as ResponseType) || 'json';
 
       await transformResponse(response);

@@ -1,0 +1,25 @@
+{
+  "name": "@soybeanjs/eslint-config-vue",
+  "version": "0.0.2",
+  "requiresBuild": false,
+  "files": {
+    "dist/index.js": {
+      "checkedAt": 1779084889956,
+      "integrity": "sha512-QuOx16ZD5ZO0sReyPmLauC4wQm4K8GTZFbBioYVhN5j4I2XDfraDHd5CRj7Sq2VxlSFsgMkok8f391EkSg2LDg==",
+      "mode": 420,
+      "size": 4263
+    },
+    "package.json": {
+      "checkedAt": 1779084889956,
+      "integrity": "sha512-8S8U1ChaI2pzFtFhabJibnTEPIoLkhgKwW6+EWYVG6UIJmpAQie7ZnitB57RkpL3F74naT1hg9zj6ZWOj+Q5oQ==",
+      "mode": 420,
+      "size": 1859
+    },
+    "dist/index.d.ts": {
+      "checkedAt": 1779084889956,
+      "integrity": "sha512-gPXS4GnlXWS0Y1LW0OgWucCIWnrhYGIs0RKUhRyVW5cZ+hGKlb3mpGMMD31bBnMz9WcFIi1CO302DYLJMYHzyg==",
+      "mode": 420,
+      "size": 189
+    }
+  }
+}

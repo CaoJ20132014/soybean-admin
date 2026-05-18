@@ -1,0 +1,55 @@
+{
+  "name": "@alova/mock",
+  "version": "2.0.20",
+  "requiresBuild": false,
+  "files": {
+    "dist/alova-mock.common.cjs": {
+      "checkedAt": 1779084884831,
+      "integrity": "sha512-VSH5rDvnhrB8o8cJF9LIzPM689wLLzJlhw5d1MNXJlC/9ElqA19rOOe+fQK6LHAa9SbUonSRJbsEK6UhFK1lFA==",
+      "mode": 420,
+      "size": 13502
+    },
+    "dist/alova-mock.esm.js": {
+      "checkedAt": 1779084884831,
+      "integrity": "sha512-A7l+90ZE/z1343XN5lxPiBQiAVBLdXCX1NYSrOgCJSu05L0WLZ3joJIWmFJGMdSf4Geqo6lUC5ltymLUzEUGNw==",
+      "mode": 420,
+      "size": 13393
+    },
+    "dist/alova-mock.umd.js": {
+      "checkedAt": 1779084884831,
+      "integrity": "sha512-P3EznWnLAOcu+A7VHN6w7y0Na6AJ6h6+O0iXfsq9gG14+Fj7jKiX/282olZklmvD98KknzPBrx+Nyl/nG57ljA==",
+      "mode": 420,
+      "size": 16987
+    },
+    "dist/alova-mock.umd.min.js": {
+      "checkedAt": 1779084884832,
+      "integrity": "sha512-2dgNmDQkeISmb0QtP74tmah34H5lNWrz1ket257eFbvwU015QRl2TFV+iZUwo0nTXpvKGSKf26l1H3MvqcxYkQ==",
+      "mode": 420,
+      "size": 4202
+    },
+    "package.json": {
+      "checkedAt": 1779084884832,
+      "integrity": "sha512-dImz/vDWw6KZ5BKolOweN5hV7ZlzTuH3vlXCHCVYLGzrZcikuiSS9XMBUNoChkrmINmlc9nav6EY4iFOK/38AQ==",
+      "mode": 420,
+      "size": 1243
+    },
+    "README.md": {
+      "checkedAt": 1779084884832,
+      "integrity": "sha512-toVxxrzxmNMqzGKbLdrlYCRR2VGmBmjkKY91lANFfo+Pq6HIAjTFc9vkxG7J5vjArph5rnjbd1sPcLNU7e27pw==",
+      "mode": 420,
+      "size": 1664
+    },
+    "typings/index.d.ts": {
+      "checkedAt": 1779084884832,
+      "integrity": "sha512-sMsPXBSefEDmpHAjrU89e8cOKFqV3AZ+DPVS26M2csv7ofoCpWe+75XdWFQH7YjEE494aq1OdeqP+c8VTmVaKw==",
+      "mode": 420,
+      "size": 2910
+    },
+    "LICENSE": {
+      "checkedAt": 1779084884832,
+      "integrity": "sha512-l+oTn27zcodCnQW4/kGY4ApcIjY2V66ygo6BlSTALW5yhKgiDryl2hWFZxlFWA2sc8e0/8GkQusdupPKrT/9Lw==",
+      "mode": 420,
+      "size": 1065
+    }
+  }
+}
